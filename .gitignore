@@ -24,6 +24,7 @@ tmp/**/*
 .loadpath
 .git/
 build/
+target/
 .buildpath
 
 # Composer specific files

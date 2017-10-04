@@ -25,7 +25,7 @@ public class CertRequestFileSaver {
     private void writeDataToFile(byte[] data, String fileName) throws IOException {
         FileOutputStream out = new FileOutputStream(fileName);
         try {
-            out.write(certRequestData);
+            out.write(data);
         } finally {
             out.close();
         }
